@@ -1,0 +1,49 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #82ada5;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5f827b;
+}
+
+.container {
+  border-radius: 7px;
+  background-color: #b8d4d0;
+  padding: 20px;
+  width: 700px;
+  height: 520px;
+  border: 50px;
+  box-sizing: border-box;
+}
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: black;
+  font-variant: small-caps;
+}
+h3::after {
+  content: url(https://img1.picmix.com/output/stamp/normal/7/0/3/6/176307_d91ef.gif);
+}
